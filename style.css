@@ -1,0 +1,167 @@
+@import url(fonts.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Roboto-Regular;
+}
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+body{
+    background: #E5E5E5;
+}
+
+.nav{
+    background: #322E41;
+    padding: 14px;
+}
+
+.nav_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+}
+.nav_list-link{
+    color: white;
+    padding: 23px 14px;
+    transition: 300ms;
+}
+.nav_list-link:hover{
+    background: white;
+    color: #D47300;
+}
+
+header{
+    background: url(img/Nike-Adapt-BB\ 1.svg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    color: powderblue;
+    font-size: 18px;
+}
+h1{
+    font-size: 50px;
+    font-family: Roboto-Bold;
+}
+
+.card1{
+    width: 540px;
+    background: white;
+    padding: 15px;
+    border-radius: 6px;
+}
+.card1 img{
+    width: 100%;
+}
+.card1 h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #2C2A2A;
+    font-size: 22px;
+    font-family: Roboto-Bold;
+}
+.card1 p{
+    color: #9B9B9B;
+    line-height: 19px;
+}
+
+.cards2 h2{
+    color: #2C2A2A;
+    font-size: 22px;
+    font-family: Roboto-Bold;
+}
+.cards2 p{
+    color: #9B9B9B;
+}
+.card{
+    width: 255px;
+    background: white;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    gap: 12px;
+}
+.cards{
+    display: flex;
+    gap: 30px;
+    transform: translateY(-40px);
+}
+.cards2{
+    display: flex;
+    width: 540px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer{
+    background: #322E41
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    gap: 11px;
+}
+input, textarea, button{
+    outline: none;
+    border: none;
+    resize: none;
+    border-radius: 8px;
+}
+input, textarea{
+    padding: 8px;
+    color: #9B9B9B
+}
+button{
+    padding: 4px 130px;
+    background: #544294;
+    color: white;
+}
+.content2{
+    padding: 37px 130px 57px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav2{
+    display: flex;
+    gap: 68px;
+}
+.nav2 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-list_link{
+    color: white;
+    margin-bottom: 10px;
+    transition: 300ms;
+}
+.footer-list_link:hover{
+    color: #D47300;
+}
